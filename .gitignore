@@ -1,0 +1,33 @@
+# Database
+call_blocker.db
+*.db  # Optional: ignore all SQLite database files
+
+# Virtual Environment
+isb_venv/
+
+# Python general
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and local settings
+*.log
+local_settings.py
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
